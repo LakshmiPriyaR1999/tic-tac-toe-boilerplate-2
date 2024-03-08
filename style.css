@@ -30,20 +30,24 @@ h1{
 .container,.game-display, #result{
     flex-direction: column;
 } 
-.box{
+.box {
     height: 100px;
     width: 100px;
     margin: 5px;
     background-color: white;
     border-radius: 10px;
-    box-shadow : 2px 2px Silver ;
+    box-shadow: 2px 2px Silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-p{
+p {
     text-align: center;
-    line-height: 100px;
-    font-size: 60px;
-    color: white;
+    line-height: 1;
+    font-size: 50px; 
+    color: #FAB201; 
+    margin: 0;
 }
 
 h3{
